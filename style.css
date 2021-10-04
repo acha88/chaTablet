@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #b191ee;
+}
+/* Chat */
+.cat {
+    background: #000;
+    position: absolute;
+    margin: auto;
+    top: 62.6%;
+    right: 20%;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    height: 350px;
+    border-radius: 25% 25% 0 0;
+}
+.ears {
+    position: absolute;
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #000;
+}
+.Right {
+    top: 0;
+    right: 0;
+    bottom: 170%;
+    left: 27%;
+}
+.Left {
+    z-index: 0;
+    top: 0;
+    right: 44%;
+    bottom: 170%;
+}
+.headCat {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 125%;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    background: #000;
+}
+/* Tablette */ 
+.tablette {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    height: 700px;
+    border: #000 solid 30px;
+    border-radius: 5%;
+    background-image: url(img/ChaHAuTcarrer_pdp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* en tete tablette */
+.headerTablet {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 140px;
+    color: #330881;
+}
+.batterie {
+    z-index: 1;
+    position: absolute;
+    margin: auto;
+    top: 10%;
+    left: 93%;
+    right: 0;
+    bottom: 90%;
+    font-size: 16px;
+}
+.reseau {
+    position: absolute;
+    margin: auto;
+    top: 12%;
+    left: 78%;
+    right: 0;
+    bottom: 90%;
+    font-size: 11px;
+}
+.bluetooth {
+    position: absolute;
+    margin: auto;
+    top: 10%;
+    left: 3%;
+    font-size: 13px;
+}
+.internet {
+    position: absolute;
+    margin: auto;
+    top: 10%;
+    left: 85%;
+    right: 0;
+    bottom: 90%;
+    font-size: 13px;
+}
+.time {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 5%;
+    font-size: 25px;
+}
+.date {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 5%;
+    font-size: 12px;
+}
+.meteo {
+    position: absolute;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+    top: 30%;
+    left: 80%;
+    right: 0;
+    bottom: 0;
+    font-size: 45px;
+}
+/* milieu tablette - application */
+.bodyTablet {
+    position: absolute;
+    margin: auto;
+    top: 75%;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    color: #330881;
+    font-size: 24px;
+}
+/* pied tablette */
+.footerTablet {
+    position: absolute;
+    margin: auto;
+    top: 92%;
+    padding: 0;
+    width: 100%;
+    height: 60px;
+    color: #330881;
+    font-size: 18px;
+}
+.carrer {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 20%;
+    right: 0;
+    bottom: 0;
+}
+.circle {
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+}
+.return {
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    left: 80%;
+    right: 0;
+    bottom: 0;
+    font-size: 28px;
+}
