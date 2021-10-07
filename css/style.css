@@ -61,7 +61,7 @@
     height: 700px;
     border: #000 solid 30px;
     border-radius: 5%;
-    background-image: url(img/ChaHAuTcarrer_pdp.png);
+    background-image: url(../img/ChaHAuTcarrer_pdp.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -143,7 +143,48 @@
     width: 100%;
     height: 60px;
     color: #330881;
-    font-size: 24px;
+    font-size: 35px;
+    border: #330881 1px solid;
+}
+.appel {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 5%;
+    right: 0;
+    bottom: 0;
+}
+.youtube {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 25%;
+    right: 0;
+    bottom: 0;
+}
+.parametre {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 60%;
+    right: 0;
+    bottom: 0;
+}
+.sms {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 80%;
+    right: 0;
+    bottom: 0;
+}
+.bodyTabletYoutube {
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 /* pied tablette */
 .footerTablet {
