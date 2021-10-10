@@ -49,6 +49,42 @@
     border-radius: 50%;
     background: #000;
 }
+.nose {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 84%;
+    right: 10%;
+    bottom: 125%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #000;
+}
+.tailCat {
+    position: absolute;
+    margin: auto;
+    top: 74%;
+    right: 37%;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 250px;
+    background: #000;
+    border-radius: 7%;
+}
+.top {
+    position: absolute;
+    margin: auto;
+    top: 49%;
+    right: 38.5%;
+    bottom: 0;
+    left: 0;
+    width: 3%;
+    height: 30px;
+    background: #000;
+    border-radius: 25%;
+}
 /* Tablette */ 
 .tablette {
     position: absolute;
@@ -58,7 +94,7 @@
     right: 0;
     bottom: 0;
     width: 400px;
-    height: 700px;
+    height: 750px;
     border: #000 solid 30px;
     border-radius: 5%;
     background-image: url(../img/ChaHAuTcarrer_pdp.png);
@@ -144,13 +180,12 @@
     height: 60px;
     color: #330881;
     font-size: 35px;
-    border: #330881 1px solid;
 }
 .appel {
     position: absolute;
     margin: auto;
     top: 30%;
-    left: 5%;
+    left: 10%;
     right: 0;
     bottom: 0;
 }
@@ -162,15 +197,15 @@
     right: 0;
     bottom: 0;
 }
-.parametre {
+.discord {
     position: absolute;
     margin: auto;
     top: 30%;
-    left: 60%;
+    left: 45%;
     right: 0;
     bottom: 0;
 }
-.sms {
+.tiktok {
     position: absolute;
     margin: auto;
     top: 30%;
@@ -178,11 +213,11 @@
     right: 0;
     bottom: 0;
 }
-.bodyTabletYoutube {
+.sms {
     position: absolute;
     margin: auto;
-    top: 5%;
-    left: 0;
+    top: 30%;
+    left: 65%;
     right: 0;
     bottom: 0;
 }
@@ -221,4 +256,285 @@
     right: 0;
     bottom: 0;
     font-size: 28px;
+}
+/* Appli Appel */
+.bodyappel {
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.iconCircle {
+    position: absolute;
+    margin: auto;
+    top: 1%;
+    left: 1%;
+    width: 23px;
+    height: 20px;
+    color: #b191ee;
+    background: #330881;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+}
+.num {
+    position: absolute;
+    margin: auto;
+    color: #330881;
+    top: 1%;
+    left: 8%;
+    font-size: 16px;
+    font-weight: 550;
+}
+.infoappelOne {
+    position: absolute;
+    margin: auto;
+    color: #330881;
+    top: 5%;
+    left: 8%;
+    font-size: 13px;
+    font-weight: 500;
+}
+.infoappelTwo {
+    position: absolute;
+    margin: auto;
+    color: #330881;
+    top: 6%;
+    left: 8%;
+    font-size: 13px;
+    font-weight: 500;
+}
+.infoappelTree {
+    position: absolute;
+    margin: auto;
+    color: #330881;
+    top: 6%;
+    left: 8%;
+    font-size: 13px;
+    font-weight: 500;
+}
+.infoappelFour {
+    position: absolute;
+    margin: auto;
+    color: #330881;
+    top: 7%;
+    left: 8%;
+    font-size: 13px;
+    font-weight: 500;
+}
+.infoappelFive {
+    position: absolute;
+    margin: auto;
+    color: #330881;
+    top: 7%;
+    left: 8%;
+    font-size: 13px;
+    font-weight: 500;
+}
+.iconCall {
+    position: absolute;
+    margin: auto;
+    top: 3%;
+    left: 90%;
+    color: #330881;
+    font-size: 18px;
+}
+.appelOne {
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.appelTwo {
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.appelTree {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.appelFour {
+    position: absolute;
+    margin: auto;
+    top: 35%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.appelFive {
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.bottomCall {
+    position: absolute;
+    margin: auto;
+    top: 75%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #330881;
+    border: #330881 1px solid;
+    font-size: 18px;
+}
+
+.fav {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 15%;
+}
+.p_fav {
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    left: 11%;
+}
+.history {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 50%;
+}
+.p_history {
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    left: 46%;
+}
+.contact {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 85%;
+}
+.p_contact {
+    position: absolute;
+    margin: auto;
+    top: 40%;
+    left: 80%;
+}
+/* Appli youtube */
+.bodyTabletYoutube {
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* Appli Tiktok */
+.bodyTabletTitok {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+/* Appli SMS */
+.bodysms {
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.iconsms {
+    position: absolute;
+    margin: auto;
+    top: 3%;
+    left: 85%;
+    color: #330881;
+    font-size: 1px;
+}
+.smsOne {
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.smsTwo {
+    position: absolute;
+    margin: auto;
+    top: 15%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.smsTree {
+    position: absolute;
+    margin: auto;
+    top: 25%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.smsFour {
+    position: absolute;
+    margin: auto;
+    top: 35%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.smsFive {
+    position: absolute;
+    margin: auto;
+    top: 45%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: #330881 1px solid;
+}
+.bottomsms {
+    position: absolute;
+    margin: auto;
+    top: 75%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #330881;
+    font-size: 18px;
+}
+.tchat {
+    position: absolute;
+    margin: auto;
+    top: 10%;
+    left: 80%;
+    font-size: 25px;
+}
+.p_tchat {
+    position: absolute;
+    margin: auto;
+    top: 30%;
+    left: 72%;
+    font-size: 14px;
 }
